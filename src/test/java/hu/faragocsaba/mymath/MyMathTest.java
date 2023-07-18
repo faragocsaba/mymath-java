@@ -12,7 +12,7 @@ public class MyMathTest {
     }
 
     @Test
-    public void testAddError() {
-        assertEquals(6, MyMath.myAdd(3, 2));
+    public void testAddNegative() {
+        assertEquals(-5, MyMath.myAdd(-3, -2));
     }
 }
