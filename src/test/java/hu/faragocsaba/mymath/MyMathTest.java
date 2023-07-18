@@ -10,4 +10,9 @@ public class MyMathTest {
     public void testAddPositive() {
         assertEquals(5, MyMath.myAdd(3, 2));
     }
+
+    @Test
+    public void testAddError() {
+        assertEquals(6, MyMath.myAdd(3, 2));
+    }
 }
